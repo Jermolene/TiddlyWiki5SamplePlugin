@@ -1,0 +1,6 @@
+title: $:/SamplePlugin/github-fork-ribbon
+tags: $:/tags/PageControls
+caption: ~GitHub ribbon
+description: ~GitHub ribbon
+
+<div class="github-fork-ribbon-wrapper right" style><div class="github-fork-ribbon" style="background-color:#4848DF;"><a href="https://github.com/Jermolene/TiddlyWiki5SamplePlugin" target="_blank">Find Me on ~GitHub</a></div></div>

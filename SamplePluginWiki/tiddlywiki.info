@@ -1,0 +1,35 @@
+{
+	"plugins": [
+		"tiddlywiki/github-fork-ribbon"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite",
+		"tiddlywiki/nighttime",
+		"tiddlywiki/starlight",
+		"tiddlywiki/seamless",
+		"tiddlywiki/stickytitles",
+		"tiddlywiki/centralised",
+		"tiddlywiki/readonly"
+	],
+	"languages": [
+		"en-US",
+		"en-GB",
+		"de-AT",
+		"de-DE",
+		"fr-FR",
+		"zh-Hans",
+		"zh-Hant",
+		"it-IT",
+		"ja-JP"
+	],
+	"build": {
+		"index": [
+			"--rendertiddler","$:/core/save/all","index.html","text/plain"],
+		"favicon": [
+			"--savetiddler","$:/favicon.ico","favicon.ico"],
+		"readme": [
+			"--rendertiddler","ReadMe","readme.md","text/html",
+			"--rendertiddler","License","license.md","text/html"]
+	}
+}
