@@ -3,5 +3,7 @@
 	"description": "Sample Plugin for TiddlyWiki",
 	"author": "JeremyRuston",
 	"core-version": ">=5.0.0",
+	"source": "https://github.com/Jermolene/TiddlyWiki5SamplePlugin/",
+	"plugin-type": "plugin",
 	"list": "readme"
 }
